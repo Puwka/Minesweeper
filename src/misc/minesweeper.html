@@ -1,0 +1,57 @@
+<div>
+  Minesweeper boilerplate
+
+  <div class="container">
+
+  </div>
+</div>
+
+<style>
+    body {
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 100vw;
+        max-height: 100%;
+        height: 100vh;
+        color: white;
+        font-family: "Arial";
+    }
+
+    div {
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+
+    .container {
+        margin: 15px;
+        width: 360px;
+        height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cell {
+        background-color: white;
+        /*box-shadow: inset -6px -11px 10px rgb(255 255 255);*/
+        min-width: 35px;
+        min-height: 35px;
+        height: 35px;
+        max-height: 35px;
+        margin: 1px;
+        display: block;
+        cursor: pointer;
+        color: black;
+        text-align: center;
+    }
+
+    .cell:hover {
+        background-color: lightgray;
+        transition: all .3s;
+    }
+</style>
